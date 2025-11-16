@@ -1,44 +1,44 @@
 # 📱 Comprar App
 
-> Projeto de estudo de React Native
+> React Native Study Project
 
-Uma aplicação de lista de compras desenvolvida em React Native com Expo, criada para fins de aprendizado e prática das tecnologias mobile.
+A shopping list application developed with React Native and Expo, created for learning and practicing mobile technologies.
 
-## 📋 Sobre o Projeto
+## 📋 About the Project
 
-O **Comprar App** é uma aplicação mobile que permite gerenciar uma lista de compras, onde você pode adicionar itens, marcar como concluídos ou pendentes, filtrar por status e remover itens. Os dados são persistidos localmente usando AsyncStorage.
+**Comprar App** is a mobile application that allows you to manage a shopping list, where you can add items, mark them as completed or pending, filter by status, and remove items. Data is persisted locally using AsyncStorage.
 
-## 🚀 Tecnologias Utilizadas
+## 🚀 Technologies Used
 
-- **React Native** - Framework para desenvolvimento mobile
-- **Expo** - Plataforma e ferramentas para desenvolvimento React Native
-- **TypeScript** - Tipagem estática para JavaScript
-- **AsyncStorage** - Armazenamento local assíncrono
-- **Lucide React Native** - Biblioteca de ícones
+- **React Native** - Framework for mobile development
+- **Expo** - Platform and tools for React Native development
+- **TypeScript** - Static typing for JavaScript
+- **AsyncStorage** - Asynchronous local storage
+- **Lucide React Native** - Icon library
 
-## 📦 Instalação
+## 📦 Installation
 
-1. Clone o repositório:
+1. Clone the repository:
 ```bash
-git clone <url-do-repositorio>
+git clone <repository-url>
 cd comprar-app
 ```
 
-2. Instale as dependências:
+2. Install dependencies:
 ```bash
 npm install
 ```
 
-## ▶️ Como Executar
+## ▶️ How to Run
 
-### Desenvolvimento
+### Development
 
-Inicie o servidor de desenvolvimento do Expo:
+Start the Expo development server:
 ```bash
 npm start
 ```
 
-### Plataformas Específicas
+### Specific Platforms
 
 - **Android:**
 ```bash
@@ -55,66 +55,66 @@ npm run ios
 npm run web
 ```
 
-## 🎯 Funcionalidades
+## 🎯 Features
 
-- ✅ Adicionar novos itens à lista
-- 🔄 Filtrar itens por status (Pendente/Concluído)
-- ✔️ Marcar itens como concluídos ou pendentes
-- 🗑️ Remover itens individuais
-- 🧹 Limpar toda a lista
-- 💾 Persistência de dados local com AsyncStorage
+- ✅ Add new items to the list
+- 🔄 Filter items by status (Pending/Completed)
+- ✔️ Mark items as completed or pending
+- 🗑️ Remove individual items
+- 🧹 Clear the entire list
+- 💾 Local data persistence with AsyncStorage
 
-## 📁 Estrutura do Projeto
+## 📁 Project Structure
 
 ```
 comprar-app/
 ├── src/
 │   ├── app/
-│   │   └── Home/          # Tela principal da aplicação
-│   ├── components/        # Componentes reutilizáveis
-│   │   ├── Button/        # Componente de botão
-│   │   ├── Filter/        # Componente de filtro
-│   │   ├── Input/         # Componente de input
-│   │   ├── Item/          # Componente de item da lista
-│   │   └── StatusIcon/    # Ícone de status
-│   ├── storage/           # Gerenciamento de armazenamento
-│   │   └── itemsStorage.ts # Funções de persistência
-│   └── types/             # Definições de tipos TypeScript
-│       └── FilterStatus.ts # Enum de status de filtro
-├── assets/                # Recursos visuais (ícones, logos)
+│   │   └── Home/          # Main application screen
+│   ├── components/        # Reusable components
+│   │   ├── Button/        # Button component
+│   │   ├── Filter/        # Filter component
+│   │   ├── Input/         # Input component
+│   │   ├── Item/          # List item component
+│   │   └── StatusIcon/    # Status icon
+│   ├── storage/           # Storage management
+│   │   └── itemsStorage.ts # Persistence functions
+│   └── types/             # TypeScript type definitions
+│       └── FilterStatus.ts # Filter status enum
+├── assets/                # Visual resources (icons, logos)
 └── package.json
 ```
 
-## 🧩 Componentes Principais
+## 🧩 Main Components
 
-- **Home**: Tela principal que gerencia o estado da lista e renderiza os componentes
-- **Button**: Botão reutilizável para ações
-- **Input**: Campo de entrada de texto
-- **Filter**: Filtros para pendentes e concluídos
-- **Item**: Item individual da lista com ações de status e remoção
-- **itemsStorage**: Módulo de persistência com AsyncStorage
+- **Home**: Main screen that manages the list state and renders components
+- **Button**: Reusable button for actions
+- **Input**: Text input field
+- **Filter**: Filters for pending and completed items
+- **Item**: Individual list item with status and removal actions
+- **itemsStorage**: Persistence module with AsyncStorage
 
-## 📝 Status dos Itens
+## 📝 Item Status
 
-- **PENDING**: Item pendente (ainda não comprado)
-- **DONE**: Item concluído (já comprado)
+- **PENDING**: Pending item (not yet purchased)
+- **DONE**: Completed item (already purchased)
 
-## 🎓 Objetivos de Estudo
+## 🎓 Learning Objectives
 
-Este projeto foi desenvolvido para praticar:
+This project was developed to practice:
 
-- Componentes funcionais com React Hooks
-- Gerenciamento de estado local
-- Persistência de dados com AsyncStorage
-- Navegação e estruturação de projetos React Native
-- TypeScript em projetos React Native
-- Boas práticas de organização de código
+- Functional components with React Hooks
+- Local state management
+- Data persistence with AsyncStorage
+- Navigation and React Native project structure
+- TypeScript in React Native projects
+- Code organization best practices
 
-## 📄 Licença
+## 📄 License
 
-Este é um projeto de estudo e aprendizado.
+This is a study and learning project.
 
 ---
 
-Desenvolvido como projeto de estudo de React Native 🚀
+Developed as a React Native study project 🚀
 
